@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/rzspupdj/public_html
-    - /bin/rsync -av --delete public/ $DEPLOYPATH
+    - /bin/cp -R public/* $DEPLOYPATH
