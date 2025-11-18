@@ -1,0 +1,32 @@
+{
+  "name": "beth-nahrin-website",
+  "version": "1.0.0",
+  "description": "Corporate website for Kooperativet Beth-Nahrin ek. för.",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "node server/server.js",
+    "start": "NODE_ENV=production node server/server.js",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "cleancss -o public/css/main.min.css public/css/main.css",
+    "build:js": "terser public/js/main.js -o public/js/main.min.js -c -m"
+  },
+  "keywords": [
+    "corporate",
+    "website",
+    "beth-nahrin"
+  ],
+  "author": "Kooperativet Beth-Nahrin",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "terser": "^5.44.1"
+  }
+}
