@@ -183,7 +183,7 @@ h1, h2, h3 {
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border-bottom: 1px solid var(--color-border);
-    height: 80px;
+    height: 70px;
 }
 
 .nav-container {
@@ -278,7 +278,8 @@ h1, h2, h3 {
    5. Hero Section
    ========================================= */
 .hero-section {
-    min-height: 100dvh;
+    min-height: 100vh;
+    min-height: 100svh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -350,7 +351,8 @@ h1, h2, h3 {
 }
 
 .about-section {
-    min-height: 100dvh;
+    min-height: 100vh;
+    min-height: 100svh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -631,7 +633,8 @@ h1, h2, h3 {
     }
     
     .contact-section {
-        min-height: 60dvh; 
+        min-height: 60vh;
+        min-height: 60svh;
     }
     
     .contact-wrapper {
