@@ -4,134 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Kooperativet Beth-Nahrin ek. för. - An organization working for cultural preservation and community development.">
-    <meta name="keywords" content="Beth-Nahrin, cooperative, organization, culture">
+    <meta name="keywords" content="Beth-Nahrin, cooperative, culture, preservation, digital solutions, Assyrian, language">
     <meta name="author" content="Kooperativet Beth-Nahrin">
     
-    <!-- Open Graph Meta Tags for Social Sharing -->
+    <!-- Open Graph & Social -->
     <meta property="og:title" content="Kooperativet Beth-Nahrin">
-    <meta property="og:description" content="An organization working for cultural preservation and community development.">
+    <meta property="og:description" content="Bridging heritage with innovation through digital solutions.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://bethnahrin.se">
     <meta property="og:image" content="/assets/logo.jpeg">
-    <meta property="og:locale" content="en_US">
-    
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Kooperativet Beth-Nahrin">
-    <meta name="twitter:description" content="An organization working for cultural preservation and community development.">
-    <meta name="twitter:image" content="/assets/logo.jpeg">
     
     <title>Kooperativet Beth-Nahrin</title>
     
     <!-- Favicon -->
     <link rel="icon" type="image/jpeg" href="/assets/logo.jpeg">
-    <link rel="apple-touch-icon" href="/assets/logo.jpeg">
     
-    <!-- Google Fonts -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
     
-    <!-- Stylesheets -->
+    <!-- Styles -->
     <link rel="stylesheet" href="/css/main.min.css">
 </head>
 <body>
-    <!-- Skip to Main Content Link for Accessibility -->
-    <a href="#main-content" class="skip-to-main">Skip to main content</a>
-    
-    <!-- Navigation -->
-    <nav id="navigation" role="navigation" aria-label="Main navigation">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#hero" aria-label="Go to homepage">
-                    <img src="/assets/logo.jpeg" alt="Kooperativet Beth-Nahrin logo">
-                </a>
-            </div>
-            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-menu">
-                <span class="hamburger-line" aria-hidden="true"></span>
-                <span class="hamburger-line" aria-hidden="true"></span>
-                <span class="hamburger-line" aria-hidden="true"></span>
-            </button>
-            <ul id="nav-menu" class="nav-menu" role="list">
-                <li class="home-link"><a href="#hero" class="nav-link active" aria-current="page">Home</a></li>
-                <li><a href="#about" class="nav-link">About Us</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    
-    <!-- Mobile Menu Overlay -->
-    <div class="mobile-menu-overlay" aria-hidden="true"></div>
 
-    <!-- Main Content -->
-    <main id="main-content" role="main">
+    <!-- Fluid Background Elements -->
+    <div class="fluid-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header id="navbar" class="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="nav-logo" aria-label="Back to top">
+                <img src="/assets/logo.jpeg" alt="Kooperativet Beth-Nahrin Logo">
+            </a>
+
+            <nav class="nav-menu">
+                <ul role="list">
+                    <li class="hide-on-mobile"><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About Us</a></li>
+                    <li><a href="#contact" class="nav-link btn btn-primary">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
         <!-- Hero Section -->
-        <section id="hero" class="hero-section" aria-labelledby="hero-title">
-            <div class="hero-content">
-                <img src="/assets/logo.jpeg" alt="Kooperativet Beth-Nahrin logo" class="hero-logo" loading="eager">
-                <h1 id="hero-title" class="hero-title">Bringing Life to Ancient Languages</h1>
-                <p class="hero-tagline">An organization working for cultural preservation and community development</p>
-                <a href="#about" class="hero-cta" aria-label="Learn more about Kooperativet Beth-Nahrin">Discover Our Story →</a>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text-wrapper reveal-item">
+                    <span class="overline">Established for the Community</span>
+                    <h1 class="hero-title">Bridging Heritage <br> <span class="italic-accent">with Innovation</span></h1>
+                    <p class="hero-subtitle">
+                        We develop digital solutions that strengthen culture, education, and community engagement, ensuring our ancient roots thrive in the modern era.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#about" class="btn btn-primary">Discover Our Story</a>
+                        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal-item delay-200">
+                    <img src="/assets/logo.jpeg" alt="Logo of Kooperativet Beth-Nahrin" class="hero-img float-animation">
+                </div>
             </div>
         </section>
 
         <!-- About Section -->
-        <section id="about" class="about-section" aria-labelledby="about-title">
-            <div class="about-container">
-                <h2 id="about-title" class="section-title">About Us</h2>
-                <p style="text-align: center; color: var(--color-muted-foreground); font-size: 1.125rem; max-width: 800px; margin: 0 auto var(--spacing-3xl);">
-                    Kooperativet Beth-Nahrin develops digital solutions that strengthen culture, education, and community engagement.
-                    Our current projects focus on language accessibility, but our mission extends to creating modern tools that support learning, connection, and cultural continuity in the digital era.
-                </p>
-                <div class="about-content">
-                    <div class="about-cards" role="list">
-                        <article class="about-card fade-in" role="listitem">
-                            <h3>Our Mission</h3>
-                            <p>To develop meaningful digital products that preserve knowledge, support education, and empower communities. We build tools that make learning accessible, starting with language, but never limited to it.</p>
-                        </article>
-                        <article class="about-card fade-in" role="listitem">
-                            <h3>Our Values</h3>
-                            <p>We value innovation, accessibility, and cultural respect. Our work combines modern technology with deep care for the traditions, identities, and communities we aim to support.</p>
-                        </article>
-                        <article class="about-card fade-in" role="listitem">
-                            <h3>Our Vision</h3>
-                            <p>To create a digital ecosystem where endangered knowledge, languages, and cultural expressions can thrive, not only preserved, but revitalized for future generations through engaging, user-friendly technologies.</p>
-                        </article>
-                    </div>
-                    
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header reveal-item">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="section-desc">Kooperativet Beth-Nahrin develops digital solutions that strengthen culture, education, and community engagement. Our current projects focus on language accessibility, but our mission extends to creating modern tools that support learning, connection, and cultural continuity in the digital era.</p>
+                </div>
+
+                <div class="cards-grid">
+                    <article class="card reveal-item delay-100">
+                        <h3 class="card-title">Our Mission</h3>
+                        <p class="card-text">To develop meaningful digital products that preserve knowledge, support education, and empower communities. We build tools that make learning accessible, starting with language, but never limited to it.</p>
+                    </article>
+
+                    <article class="card reveal-item delay-200">
+                        <h3 class="card-title">Our Values</h3>
+                        <p class="card-text">We value innovation, accessibility, and cultural respect. Our work combines modern technology with deep care for the traditions, identities, and communities we aim to support.</p>
+                    </article>
+
+                    <article class="card reveal-item delay-300">
+                        <h3 class="card-title">Our Vision</h3>
+                        <p class="card-text">To create a digital ecosystem where endangered knowledge, languages, and cultural expressions can thrive, not only preserved, but revitalized for future generations through engaging, user-friendly technologies.</p>
+                    </article>
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="contact-section" aria-labelledby="contact-title">
-            <div class="contact-container">
-                <h2 id="contact-title" class="section-title">Get in Touch</h2>
-                <p class="contact-description">Have questions or want to learn more about our work? We'd love to hear from you!</p>
-                <div class="contact-card fade-in">
-                    <a href="mailto:info@bethnahrin.se" class="contact-email-link" aria-label="Send email to info@bethnahrin.se">
-                        <div class="email-icon">✉️</div>
-                        <div class="email-content">
-                            <div class="email-label">Email us at</div>
-                            <div class="email-address">info@bethnahrin.se</div>
-                        </div>
-                    </a>
+        <section id="contact" class="section contact-section">
+            <div class="container contact-container">
+                <div class="contact-header reveal-item">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="contact-text">
+                        Have questions or want to learn more about our work? We'd love to hear from you!
+                    </p>
                 </div>
+                
+                <a href="mailto:info@bethnahrin.se" class="contact-card reveal-item delay-100">
+                    <div class="email-icon">✉️</div>
+                    <div class="email-content">
+                        <div class="email-label">Email us at</div>
+                        <div class="email-address">info@bethnahrin.se</div>
+                    </div>
+                </a>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer id="footer" class="site-footer" role="contentinfo" aria-label="Site footer">
-        <div class="footer-container">
-            <div class="footer-logo">
-                <img src="/assets/logo.jpeg" alt="Kooperativet Beth-Nahrin logo">
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo-wrapper">
+                    <img src="/assets/logo.jpeg" alt="Logo" class="footer-logo-img">
+                </div>
             </div>
-            <div class="footer-copyright">
-                <p>&copy; <span id="current-year"></span> Kooperativet Beth-Nahrin ek. för. All rights reserved.</p>
-            </div>
-            <div class="footer-contact">
-                <a href="mailto:info@bethnahrin.se" class="footer-email" aria-label="Send email to info@bethnahrin.se">info@bethnahrin.se</a>
+            <div class="footer-links">
+                <div class="copyright">
+                    &copy; <span id="year"></span> Kooperativet Beth-Nahrin ek. för.
+                </div>
             </div>
         </div>
     </footer>
